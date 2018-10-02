@@ -1,0 +1,11 @@
+table,th,td
+{
+  border-style:  double;
+  border-width: medium;
+}
+
+
+body
+{
+  background-color: lightblue;
+}

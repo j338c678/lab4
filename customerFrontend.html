@@ -1,0 +1,41 @@
+<html>
+    <head>
+      <title>
+        exercise3
+      </title>
+      <script type="text/javascript" src="formChecker.js"></script>
+     <form action="customerBackend.php"  onsubmit="return myFunc1()" method="post">
+    </head>
+<body>
+
+  <h2>User information</h2>
+  <div style="background-color:lightblue">
+    UserName:<br>
+    <input type="text" name="UserName" id="US" placeholder="name@domain.com">
+    <br>
+    Password:<br>
+    <input type="text" name="Password" id="PS">
+    <br><br>
+  </div>
+
+  <h2>Item</h2>
+  <div style="background-color:red">
+  <input type="text" name="item1" id="item1"> Blue T-Shirt: 50$<br>
+  <input type="text" name="item2" id="item2"> Black T-Shirt: 80$<br>
+  <input type="text" name="item3" id="item3"> White T-Shirt: 100$<br>
+  </div>
+
+  <h2>shipping</h2>
+  <div style="background-color:green">
+  <input type="radio" name="ship" id="ship1" value="Free 7 day" checked > Free 7 day<br>
+  <input type="radio" name="ship" id="ship2" value="50.00 over night"  > 50.00 over night<br>
+  <input type="radio" name="ship" id="ship3" value="$5.00 three day"> $5.00 three day <br>
+  </div>
+
+  <input type="reset" ><br>
+ <input type="submit" value="submit" >
+
+ </form>
+
+</body>
+</html>
